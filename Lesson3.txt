@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+  <style>
+   
+    .block {
+       display: block;
+       width: 100%;
+       position: absolute; 
+       max-width: 350px;
+       max-height: 515px;
+       background: #FFFFFF;
+       border-radius: 8px;
+       left: 436px;
+       top: 223px;
+       
+      
+      
+    }
+    .block__label {
+      
+      color: #B4B4B4;
+      font-size: 12px;
+      line-height: 14px;
+      letter-spacing: 2px;
+      
+      margin: 37px;
+      width: 46px;
+      height: 14px;
+      
+    }
+    
+    .block__orange {
+     
+      margin-top: 59px;
+      margin-left: 35px; 
+      margin-right: 50px;
+     
+      color: #262626;
+      font-size: 32px;
+      line-height: 40px;
+      font-weight: bold;
+      
+    }
+    
+    .block__image {
+      background: Base.jpg;
+      border-radius: 8px;
+      margin: 165px auto 80px;
+    }
+    
+    
+    .block__travel {
+      background: #EC6732;
+      border-radius: 17px;
+      margin-left: 35px;
+      color: #FFFFFF;
+      padding: 7px 6px;
+      font-size: 10px;
+      
+    }
+    
+    .block__basines {
+      background: #EC6732;
+      border-radius: 17px;
+      margin-left: 13px;
+      color: #FFFFFF;
+      padding: 7px 6px;
+      text-align: center;
+      font-size: 10px;
+     
+    }
+  </style>
+</head>
+<body>
+  <div class="block">
+  <div class="block__label">
+    LABEL
+  </div>
+  <p1 class="block__orange">
+    Travel with the color, Orange
+  </p1>
+  <div>
+    <img class="block__image" src="Base.jpg" alt="sky">
+  </div>
+  
+  <buttom class="block__travel">
+    TRAVEL
+    </buttom>
+  <buttom class="block__basines">
+    BASINESS
+  </buttom>
+  </div>
+    
+</body>
+</html>
